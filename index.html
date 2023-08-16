@@ -198,48 +198,40 @@
 
    </section>
 
-   <!-- contact section ends -->
+   <!-- menu section ends -->
+   <!-- contact section starts  -->
 
-   <!-- footer section starts  -->
+   <section class="contact" id="contact">
 
-   <section class="footer">
+      <div class="heading">
+         <img src="images/heading-img.png" alt="">
+         <h3>contact us</h3>
+      </div>
 
-      <div class="box-container">
+      <div class="row">
 
-         <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>our email</h3>
-            <p>rj@gmail.com</p>
+         <div class="image">
+            <img src="images/food.png" alt="">
          </div>
 
-         <div class="box">
-            <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
-            <p>07:00am to 09:00pm</p>
-         </div>
-
-         <div class="box">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>shop location</h3>
-            <p>Dharwad, india - 580002</p>
-         </div>
-
-         <div class="box">
-            <i class="fas fa-phone"></i>
-            <h3>our number</h3>
-            <p>+123-456-7890</p>
-            <p>+111-222-3333</p>
-         </div>
+         <form action="" method="post">
+            <h3>book a table</h3>
+            <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your Name">
+            <input type="text" name="email" required class="box" maxlength="20" placeholder="enter your Email">
+            <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your contact Number"
+               min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+            <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0"
+               max="99" onkeypress="if(this.value.length == 2) return false">
+            <input type="submit" name="send" value="Submit Your Response" class="btn">
+         </form>
 
       </div>
 
-      <div class="credit"> &copy; copyright @ 2023 by <span>Rohit Jadhav</span> | all rights reserved! </div>
-
    </section>
 
-   <!-- footer section ends -->
+   <!-- contact section ends -->
 
-   <!-- custom js file link  -->
+   <!-- footer section starts  -->
    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js'></script>
    <script src="js/script.js"></script>
